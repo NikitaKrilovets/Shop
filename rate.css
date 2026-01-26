@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(80, 78, 78);
+}
+.bb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+.onmain {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: rgba(156, 39, 176, 0.3);
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 20px;
+    display: block;
+    margin: 10px auto 0;
+    width: 150px;
+    height: auto;
+    color:aliceblue;
+    float: left;
+}
+
+.onmain:hover {
+    box-shadow: 0 0 35px rgb(218, 30, 165); 
+    transition: 0.3s;
+    backdrop-filter: blur(15px);
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -1px 10px #000;
+    font-family: 'Dancing Script', cursive;
+    margin: 15px -8px -8px -8px;
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+.w {
+    font-size: 50px;
+}
+
+.image1 {
+    margin-top: -180px;
+    margin-left: 140px;
+}
+
+.p {
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+    padding-left: 400px;
+    color: #7fffd4;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400; 
+}
+
+.aa {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 6px 30px;
+    box-sizing: border-box;
+    max-width: 70%;
+    border-radius: 10%;
+    background-color: #232122;
+    border: 1px solid #2c2c2c;
+    box-shadow: 0 0 18px rgba(0, 255, 200, 0.15);
+    color:rgb(4, 117, 117);
+    font-family: 'Dancing Script', cursive;
+}
+
+h3  {
+    text-align: center;
+    font-size: 50px;
+    color:#7fffd4;
+    margin-top: 150px;
+}
+
+.review-goods   {
+    background-color: rgb(39, 38, 38);
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.review-goods2   {
+    background-color: rgb(39, 38, 38);
+    padding: 40px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.rg1    {
+    background-color: rgb(142, 138, 138);
+    margin-top: -8px;
+    margin-bottom: 30px;
+    padding: 30px 0;
+}
+
+.rg1 h4 {
+    margin-top: -75px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.rg1 span {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.rg1 :is(p, button) {
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+[alt="user 1"]  {
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.good   {
+    margin: 10px auto;
+    padding: 24px;
+    background-color:#434343;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 40px;
+}
+
+.tw {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    color: rgb(177, 189, 198);
+}

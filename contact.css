@@ -1,0 +1,71 @@
+body    {
+    background-image: url("Зображення/bgimage4.png");
+}
+
+.first h1 {
+    color: lightcyan;
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-style: inherit;
+}
+
+.first p {
+    color: lightcyan;
+    font-size: 24px;
+    line-height: 1.6;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+
+.first {
+    padding: 40px;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.onmain {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(156, 39, 176, 0.3);
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 20px;
+    display: block;
+    margin: 10px auto 0;
+    width: 150px;
+    height: auto;
+    color:aliceblue;
+    float: left;
+}
+
+.onmain:hover {
+    box-shadow: 0 0 35px rgb(218, 30, 165); 
+    transition: 0.3s;
+    backdrop-filter: blur(15px);
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px #000;
+    font-family: 'Dancing Script', cursive;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
