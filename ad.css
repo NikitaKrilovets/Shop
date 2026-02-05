@@ -8,6 +8,70 @@
         font-size: 14px;
     }
 
+    .head  {
+        margin-top: 30px;
+    }
+    
+    .p {
+        font-size: 13px;
+        padding: 70px;
+    }
+
+    .bb {
+        display: flex;
+        align-items: flex-start;
+        margin-left: -20px;
+        flex-direction: column;
+        margin-top: -70px;
+    }
+
+    .aa {
+        margin: 10px 60px;
+        text-align: center;
+        padding: 10px 15px;
+    }
+
+    .aa h1, .aa h2 {
+        font-size: 20px;
+    }
+
+    .w {
+        font-size: 30px;
+    }
+
+    .image1 {
+        width: 60px;
+        height: 60px;
+        margin-top: -300px;
+    }
+
+    .review-goods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-goods2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .good {
+        margin: 10px 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .good img {
+        width: 165px;
+        height: auto;
+    }
+
+    .tw {
+        font-size: 12px;
+    }
+
     h1, h2, h3 {
         font-size: 24px;
     }
@@ -28,7 +92,11 @@
 
     .first-index h1, .first-index h2 {
         font-size: 36px;
-        margin-bottom: 10px;
+        margin-bottom: -20px;
+    }
+
+    .last   {
+        margin-top: 50px;
     }
 
     .first-index p {
@@ -41,14 +109,20 @@
         margin-top: -40px;
     }
 
-    h3, h4, h5 {
+    h4  {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .z  {
         font-size: 24px;
+        padding-left: 20px;
     }
 
     .all {
         grid-template-columns: 1fr;
         gap: 15px;
-        padding: 10px;
+        padding: 40px;
     }
 
     .second-index {
@@ -72,11 +146,6 @@
 
     .qq {
         grid-template-columns: 1fr;
-    }
-
-    .modal-content:checked ~ .modal-content {
-        width: 90%;
-        height: auto;
     }
 
     .price-panel {
@@ -122,10 +191,6 @@
         font-size: 10px;
     }
 
-    .head2 {
-        margin-top: 20px;
-    }
-
     .form {
         width: 90%;
         margin-left: 5%;
@@ -161,7 +226,7 @@
     }
 
     .first {
-        padding: 20px;
+        padding: 30px;
     }
 
     .images {
@@ -219,11 +284,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .modal-content:checked ~ .modal-content {
-        width: 80%;
-        height: auto;
-    }
-
     .border-in-panel, .border-in-panel-gp, .border-in-panel-tv, .border-in-panel-tablet, .border-in-panel-mt, .border-in-panel-kb, .border-in-panel-hp, .border-in-panel-m, .border-in-panel-usb, .border-in-panel-usb2 {
         padding: 40px;
         margin: 0 -10px;
@@ -254,15 +314,33 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 15px;
     }
+
+    .p {
+        font-size: 18px;
+    }
+
+    .bb {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .aa {
+        margin: 20px;
+    }
+
+    .image1 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .good img {
+        width: 250px;
+    }
 }
 
 @media (min-width: 1025px) {
     body {
         font-size: 18px;
-    }
-
-    h1, h2, h3 {
-        font-size: 32px;
     }
 
     .container {
@@ -290,27 +368,6 @@
 
     .qq {
         grid-template-columns: repeat(4, 1fr);
-    }
-
-    .modal-content:checked ~ .modal-content {
-        width: 1300px;
-        height: 600px;
-    }
-
-    .border-in-panel, .border-in-panel-gp, .border-in-panel-tv, .border-in-panel-tablet, .border-in-panel-mt, .border-in-panel-kb, .border-in-panel-hp, .border-in-panel-m, .border-in-panel-usb, .border-in-panel-usb2 {
-        padding: 52px;
-        margin: 0 -15px;
-    }
-
-    .abc, .abc-tv, .abc-tablet, .abc-gp, .abc-gp2, .abc-gp3, .abc-gp4, .abc-gp5, .abc-gp6, .abc-gp7, .abc-pss, .abc-pss2, .abc-usb, .abc-usb2, .abc-usb3, .abc-usb4, .abc-usb5, .abc-pw2, .abc-sp {
-        padding-left: 380px;
-        margin-top: -500px;
-        font-size: 12px;
-    }
-
-    .img-phone, .img-phone2, .img-tv, .img-tablet, .img-tablet2, .img-projector, .img-monitor, .img-kb, .img-kb2, .img-m, .img-m2, .img-gp, .img-pw, .img-sp {
-        width: 255px;
-        height: auto;
     }
 
     .form {
